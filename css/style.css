@@ -1,24 +1,22 @@
-body {
-	height: 2000px;
-}
-
 header {
-padding-left: 10px;
-background: lightpink;
+padding: 20px;
+height: 50px;
 position: fixed;
 top: 0;
 left: 0;
 width: 100%;
-z-index: 100;
+z-index: 1000;
 
 }
 
 .logo {
-	font-size: 50px;
+	font-size: 13px;
+	font-weight: bold;
+	font-family: 'Roboto Condensed', sans-serif;
 	display: inline-block;
-	color: red;
-	margin-right: 50px;
+	color: #fa6980;
 	vertical-align: middle;
+	margin-right: 90px;
 }
 
 nav {
@@ -29,52 +27,104 @@ nav {
 li {
 	display: inline-block;
 	margin-right: 20px;
-	font-size: 18px;
+}
+
+.active {
+	opacity: 1;
 }
 
 li a {
-	color: black;
+	color: #343638;
+	font-size: 11px;
+	font-weight: bold;
+	opacity: 0.5;
+	font-family: 'Roboto Condensed', sans-serif;
 }
 
-.mshobeli {
-	margin-top: 100px;
-	width: 300px;
-	height: 300px;
-	background: lightblue;
+li img {
+	vertical-align: middle;
+}
+
+/*Secteion 1*/
+
+.fi-h2 {
+	margin-top: 75px;
+	margin-left: 140px;
+	margin-bottom: 40px;
+	width: 1026px;
+	font-size: 24px;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: bold;
+	color: #202124;
+}
+
+.fi-bl {
+	margin-left: 140px;
+	width: 1180px;
+	height: 350px;
+}
+
+.cl {
+	display: inline-block;
+	height: 350px;
+	width: 360px;
+}
+.cl-1 {
+	margin-right: 40px;
 	position: relative;
-	margin-bottom: 100px;
-	border-radius: 10px;
+
 }
 
-.shvili {
+.cl-2 {
+	margin-right: 40px;
+	position: relative;
+}
+
+.cl-3 {
+	position: relative;
+}
+
+img {
+	border-radius: 15px	;
+}
+
+.img-name {
 	position: absolute;
-	width: 100px;
-	height: 100px;
+	top: 28px;
+	left: 40px;
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: 'Roboto Condensed', sans-serif;
+
 }
 
-.black {
-	background: black;
-	top: 0px;
-	left: 0;
-	z-index: 5;
+.img-txt {
+	font-size: 13px;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #a6adb4;
+	margin-top: 66px;
+	margin-left: 40px;
+	margin-right: 39px;
+	z-index: 10;
 }
 
-.red {
-	background: red;
-	top: 50px;
-	left: 50px;
-	z-index: 3;
+.time-logo {
+	display: inline-block;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-left: 40px;
+	vertical-align: middle;
 }
 
-.yellow {
-	background: yellow;
-	top: 100px;
-	left: 100px;
-	z-index: 2;
+.time {
+	display: inline-block;
+	margin-top: 10px;
+	font-size: 13px;
+	color: #a6adb4;
+	font-family: 'Roboto Condensed', sans-serif;
+	vertical-align: middle;
 }
-
-
-
 /*section 2*/
 
 .wrapper {
